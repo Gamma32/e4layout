@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="de.duckout.e4layout"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="clearPersistedState"
+               value="true">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.duckout.e4layout/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="de.duckout.e4layout">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
